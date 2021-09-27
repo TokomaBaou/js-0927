@@ -8,7 +8,10 @@
     "build": "parcel build index.html"
   },
   "dependencies": {
-    "parcel-bundler": "^1.6.1"
+    "dom-content-loaded": "1.0.2",
+    "parcel-bundler": "^1.6.1",
+    "swiper": "7.0.5",
+    "swiper.js": "1.0.0"
   },
   "devDependencies": {
     "@babel/core": "7.2.0"

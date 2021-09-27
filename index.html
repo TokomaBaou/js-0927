@@ -1,16 +1,30 @@
 <!DOCTYPE html>
-<html>
 
-<head>
-	<title>Parcel Sandbox</title>
-	<meta charset="UTF-8" />
-</head>
+<html lang="jp">
+  <head>
+    <title>Swiper demo</title>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+  </head>
 
-<body>
-	<div id="app"></div>
+  <body>
+    <div id="app"></div>
 
-	<script src="src/index.js">
-	</script>
-</body>
+    <!-- <script src="src/common.js"></script> -->
+    <script src="src/index.js"></script>
+    <script src="src/swiper.js"></script>
 
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- 初期化 Swiper -->
+    <script>
+      let swiper = new Swiper(".swiper-container", {
+        // loop: true,
+        // direction: "vertical"
+      });
+    </script>
+  </body>
 </html>

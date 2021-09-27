@@ -1,3 +1,32 @@
 body {
   font-family: sans-serif;
+  background-color: #adf;
+  /*以下を追加で要素が横並びになった*/
+  position: relative;
+  height: 100%;
+}
+
+h1 {
+  text-align: center;
+  margin: 160px auto;
+}
+/*スライダーをサイズ設定*/
+/* .swiper-container {
+  width: 1000px;
+  height: 400px;
+} */
+
+.slide-item {
+  height: 200px;
+  height: 500px;
+  background: pink;
+  color: #fff;
+  font-size: 3rem;
+  text-align: center;
+}
+.slide-item:nth-child(2) {
+  background: skyblue;
+}
+.slide-item:nth-child(3) {
+  background: green;
 }
