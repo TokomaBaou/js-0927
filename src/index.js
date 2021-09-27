@@ -13,6 +13,8 @@ document.getElementById("app").innerHTML = `
   <div class="swiper-slide slide-item">
     slide3</div>
   </div>
+  <div class="swiper-button-prev"></div>
+   <div class="swiper-button-next"></div>
 </div>
 `;
 
